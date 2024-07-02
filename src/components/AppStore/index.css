@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.big-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 40px;
+  font-weight: bold;
+}
+.search-container {
+  background-color: transparent;
+  background-size: cover;
+  border-style: solid;
+  border-color: #1e293b;
+  border-width: 0.2px;
+  border-radius: 5px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.input-element {
+  background-color: transparent;
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  height: 30px;
+  border-width: 0px;
+  outline: none;
+}
+.image {
+  margin: 10px;
+  height: 30px;
+  width: 20px;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
